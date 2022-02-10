@@ -13,3 +13,5 @@ This is a minimal test case to reproduce this. The nginx version used originally
 ```
 docker build . -t nginx-bug-repro && docker run -p 8000:8000 nginx-bug-repro
 ```
+
+nginx trac ticket: <https://trac.nginx.org/nginx/ticket/2320>
